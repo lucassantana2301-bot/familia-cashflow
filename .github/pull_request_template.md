@@ -1,0 +1,21 @@
+## O que muda
+
+<!-- Resumo em 1–3 frases. Linke a issue: "Closes #123". -->
+
+## Por quê
+
+<!-- Contexto, problema ou decisão por trás da mudança. -->
+
+## Como testei
+
+<!-- Testes automatizados adicionados e/ou passos manuais. -->
+
+## Checklist
+
+- [ ] `cargo fmt --check` passa localmente
+- [ ] `cargo clippy --all-targets --locked -- -D warnings` passa localmente
+- [ ] `cargo test --locked` passa localmente
+- [ ] `(cd web && npm run typecheck && npm test && npm run build)` passa localmente
+- [ ] Testes cobrem o comportamento novo ou o bug corrigido
+- [ ] Documentação (README/ADR/CHANGELOG) atualizada quando aplicável
+- [ ] Sem segredos, dados reais de clientes ou credenciais no diff
