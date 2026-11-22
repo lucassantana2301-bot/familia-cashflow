@@ -5,6 +5,7 @@
 **Orçamento da família pelo método dos envelopes: cada categoria tem um limite no mês, o extrato do banco entra por importação e o painel mostra quais envelopes estão enchendo.**
 
 [![CI](https://github.com/lucassantana2301-bot/familia-cashflow/actions/workflows/ci.yml/badge.svg)](https://github.com/lucassantana2301-bot/familia-cashflow/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/lucassantana2301-bot/familia-cashflow?sort=semver)](https://github.com/lucassantana2301-bot/familia-cashflow/releases)
 ![Rust](https://img.shields.io/badge/Rust-axum_0.8-000000?logo=rust&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
@@ -136,6 +137,10 @@ Os testes de integração sobem o router real contra o Postgres e cobrem cadastr
 - [ ] Lançamentos recorrentes (aluguel, assinaturas)
 - [ ] Sugestão de categoria com base no histórico da família
 - [ ] Convite de membro por link, sem senha inicial
+
+## Contribuindo
+
+Veja o [guia de contribuição](CONTRIBUTING.md), o [CHANGELOG](CHANGELOG.md) e a [política de segurança](SECURITY.md). Os itens do roadmap estão abertos como [issues](../../issues).
 
 ## Licença
 
